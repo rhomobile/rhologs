@@ -7,8 +7,8 @@ Running
 =======
 1. Set the following environment variables:
 
-AMAZON_ACCESS_KEY_ID=<mykey>
-AMAZON_SECRET_ACCESS_KEY=<mysecretkey>
+	AMAZON_ACCESS_KEY_ID=<mykey>
+	AMAZON_SECRET_ACCESS_KEY=<mysecretkey>
 	
 2. ruby app.rb
 
