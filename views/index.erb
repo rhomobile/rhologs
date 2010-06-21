@@ -1,0 +1,7 @@
+<% if @items and @items.length > 0 %>
+	<% @items.each do |item| %>
+	  <a href="<%=item %>"><%=item%></a> <a href="/delete?file=<%=item%>">X</a><br/>
+	<% end %>
+<% else %>
+No files...
+<% end %>
